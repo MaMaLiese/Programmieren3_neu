@@ -1,0 +1,2 @@
+Product{productName='Name1', price=11.5, productCategory='Kategorie1'}
+Product{productName='Name2', price=11.5, productCategory='Kategorie2'}

@@ -1,0 +1,42 @@
+FileReader dann in den BufferedReader rein;
+dann wird BufferedReader verwendet,
+
+dann wird mit br.readLine() erste Zeile eingelesen
+
+
+wenn ich alle Zeilen auslesen will:
+
+String zeile = br.readLine();
+while(zeile !=null) {
+s
+
+17.05.2023
+
+String dir="C:\\";
+
+File f = new File(dir);  ---> f ist historisch gewachsen, ist Objekt
+f. list f.   -----> hier schaut programm, ob es dir gibt; Bsp: wenn ich in Graz frage ob kochtopf bei Wallmart (den gibt's nicht)
+
+heute text aus datei rauslesen:
+- Testprogramm suchen, dass Text aus datei rausliest
+
+-----------------------------------------------------------------------------------------
+java.io
+
+
+
+zwei Arten v. Dateien
+Byte-orientiert: lesen und schreiben
+Zeichen-orientiert: lesen und schreiben
+
+TEXT INPUT ----java.io.Reader
+ein Charakter hat immer ein Byte (im windows 0D = Carrage return vgl. Schreibmaschine für Zeilenwechsel; 0A = LF ist line feed vgl papier weiterschieben)
+
+(hexed.it)
+
+------------------------------------------------------
+binary input : bild.bmp (source ist binary) deshalb input --->(nach)Konsole(Destination)
+binary output : String (source ist text) ---->(nach) File (deshalb output)
+
+
+
