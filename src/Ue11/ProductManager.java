@@ -15,31 +15,70 @@ public class ProductManager {
     }
 
 
- public void saveToFile(String filepath) throws IOException {
+ public void saveToFile(String filepath)  {
         File f = new File(filepath);
-     FileWriter fW = new FileWriter(f);
+     FileWriter fW = null;
+     try {
+         fW = new FileWriter(f);
+     } catch (IOException e) {
+         throw new RuntimeException(e);
+     }
      BufferedWriter bW = new BufferedWriter(fW);
      for (Product p : productList) {
          System.out.println("ProductManager: saveToFile: saving Produkt '" + p.toString() + "' ");
-         bW.write(p.toString());
-         bW.newLine(); //so am schönsten, gilt für alle plattformen
+         try {
+             bW.write(p.toString());
+         } catch (IOException e) {
+             throw new RuntimeException(e);
+         }
+         try {
+             bW.newLine(); //so am schönsten, gilt für alle plattformen
+         } catch (IOException e) {
+             throw new RuntimeException(e);
+         }
      }
-     bW.flush();
-     bW.close();
+     try {
+         bW.flush();
+     } catch (IOException e) {
+         throw new RuntimeException(e);
+     }
+     try {
+         bW.close();
+     } catch (IOException e) {
+         throw new RuntimeException(e);
+     }
  }
- public void readFromFile(String path) throws IOException {
-     FileReader fr = new FileReader("Ue11.txt"); //zum oeffnen der Dateien könnte schon lesen auch
+ public void readFromFile(String path)  {
+     FileReader fr = null; //zum oeffnen der Dateien könnte schon lesen auch
+     try {
+         fr = new FileReader("Ue11.txt");
+     } catch (FileNotFoundException e) {
+         throw new RuntimeException(e);
+     }
      //aber sehr low level
      BufferedReader br = new BufferedReader(fr);
      //hier wird der fileReader an den BufferedReader weitergegeben
 
 
-     String zeile = br.readLine(); //zeile ist ein Objekt
+     String zeile = null; //zeile ist ein Objekt
+     try {
+         zeile = br.readLine();
+     } catch (IOException e) {
+         throw new RuntimeException(e);
+     }
      while(zeile !=null) {
          System.out.println(zeile);
-         zeile = br.readLine();
+         try {
+             zeile = br.readLine();
+         } catch (IOException e) {
+             throw new RuntimeException(e);
+         }
      }
-     br.close(); //um datei wieder zu schließen
+     try {
+         br.close(); //um datei wieder zu schließen
+     } catch (IOException e) {
+         throw new RuntimeException(e);
+     }
  }
 
      //System in ist spezielle Datei für Tastatureingabe

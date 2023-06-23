@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4357fa-8a90-4c42-b8b7-aa7961ed1030" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/Ue12mitException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/Ue8mitException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressExportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressExportFileAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressLoadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressLoadWrongFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/MainAdressen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StoppenNicely/ConsoleHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StoppenNicely/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StoppenNicely/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threading/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threading/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/CounterThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/MainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/TwoThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UE3_1_timeInSec/ConsoleHelperTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UE3_1_timeInSec/MainTimeInSec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UE3_1_timeInSec/TimeInSec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UE3_2_timeInSecWithCPU/ConsoleHelperTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UE3_2_timeInSecWithCPU/MainTimeInSec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UE3_2_timeInSecWithCPU/TimeInSec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UE3_2_timeInSecWithCPU/WithCPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ue_KontoNeg/MainKontoNeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ue_KontoNeg/WorkerKonto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ue16/Ue16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ue16/Ue16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ue11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ue11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ue11/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ue11/ProductManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +55,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/s53031/IdeaProjects/Programmieren3",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager" selected="Application.Ue8mitException">
-    <configuration name="Ue13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ue13.Main" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Abschlussuebung_IO" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s53031\IdeaProjects\Programmieren3\src\UE3_2_timeInSecWithCPU" />
+      <recent name="C:\Users\s53031\IdeaProjects\Programmieren3\src\StoppenNicely" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UE3_1_timeInSec" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainAdressen">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StoppenNicely.Main" />
       <module name="Programmieren3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ue13.*" />
+          <option name="PATTERN" value="StoppenNicely.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ue14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ue14.Ue14" />
+    <configuration name="MainAdressen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abschlussuebung_IO.MainAdressen" />
       <module name="Programmieren3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ue14.*" />
+          <option name="PATTERN" value="Abschlussuebung_IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ue15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ue15.Ue15" />
+    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.MainThread" />
       <module name="Programmieren3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ue15.*" />
+          <option name="PATTERN" value="Threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ue16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ue16.Ue16" />
+    <configuration name="MainTimeInSec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UE3_1_timeInSec.MainTimeInSec" />
       <module name="Programmieren3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ue16.*" />
+          <option name="PATTERN" value="UE3_1_timeInSec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ue8mitException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exceptions.Ue8mitException" />
+    <configuration name="TwoThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.TwoThreads" />
       <module name="Programmieren3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exceptions.*" />
+          <option name="PATTERN" value="Threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ue8mitException" />
-        <item itemvalue="Application.Ue16" />
-        <item itemvalue="Application.Ue15" />
-        <item itemvalue="Application.Ue14" />
-        <item itemvalue="Application.Ue13.Main" />
+        <item itemvalue="Application.MainAdressen" />
+        <item itemvalue="Application.MainTimeInSec" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TwoThreads" />
+        <item itemvalue="Application.MainThread" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +165,11 @@
       <workItem from="1684745678609" duration="682000" />
       <workItem from="1684843277148" duration="6382000" />
       <workItem from="1684909333993" duration="2930000" />
-      <workItem from="1684920361835" duration="830000" />
+      <workItem from="1684920361835" duration="1367000" />
+      <workItem from="1684925061156" duration="99000" />
+      <workItem from="1687158006372" duration="17114000" />
+      <workItem from="1687338278085" duration="48000" />
+      <workItem from="1687421354018" duration="11205000" />
     </task>
     <servers />
   </component>

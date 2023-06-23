@@ -3,7 +3,7 @@ package Ue11;
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         System.out.println("ue11 starting...");
 
         Product p1 = new Product("Name1", 11.50, "Kategorie1");
