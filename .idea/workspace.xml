@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4357fa-8a90-4c42-b8b7-aa7961ed1030" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressExportException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressExportFileAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressLoadException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressLoadWrongFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/MainAdressen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StoppenNicely/ConsoleHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StoppenNicely/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StoppenNicely/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threading/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threading/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/CounterThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/MainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/TwoThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UE3_1_timeInSec/ConsoleHelperTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UE3_1_timeInSec/MainTimeInSec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UE3_1_timeInSec/TimeInSec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UE3_2_timeInSecWithCPU/ConsoleHelperTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UE3_2_timeInSecWithCPU/MainTimeInSec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UE3_2_timeInSecWithCPU/TimeInSec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UE3_2_timeInSecWithCPU/WithCPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ue_KontoNeg/MainKontoNeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ue_KontoNeg/WorkerKonto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads_Abschlussbsp/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads_Abschlussbsp/FileReadWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads_Abschlussbsp/TimePrintWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads_Abschlussbsp/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ue11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ue11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ue11/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ue11/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/AddressManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abschlussuebung_IO/MainAdressen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abschlussuebung_IO/MainAdressen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/s53031/IdeaProjects/Programmieren3",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/s53031/IdeaProjects/Programmieren3&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Abschlussuebung_IO" />
@@ -77,7 +56,20 @@
       <recent name="UE3_1_timeInSec" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainAdressen">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads_Abschlussbsp.Demo" />
+      <module name="Programmieren3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Threads_Abschlussbsp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StoppenNicely.Main" />
       <module name="Programmieren3" />
@@ -97,19 +89,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Abschlussuebung_IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threads.MainThread" />
-      <module name="Programmieren3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.MainAdressen" />
         <item itemvalue="Application.MainTimeInSec" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TwoThreads" />
-        <item itemvalue="Application.MainThread" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +149,8 @@
       <workItem from="1687158006372" duration="17114000" />
       <workItem from="1687338278085" duration="48000" />
       <workItem from="1687421354018" duration="11205000" />
+      <workItem from="1687506654782" duration="414000" />
+      <workItem from="1687760245647" duration="8722000" />
     </task>
     <servers />
   </component>
