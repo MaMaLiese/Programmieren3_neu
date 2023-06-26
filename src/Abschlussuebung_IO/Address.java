@@ -58,6 +58,7 @@ public class Address {
     public String toString_ZAM() { // nur zum Testen mit fixem Separator
         return firstname + ';' + lastname + ';' +
                 mobilNumber + ';' + email;
-
+//kommentare bla
+        
     }
 }
